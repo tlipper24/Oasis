@@ -1,6 +1,12 @@
-def hello():
-    print ("hellow world")
 
+def HelloWorld():
+    print ("Hellow!")
+def CreditWhereCreditIsDue():
+    print ('This text adventure is heavily based off of the "Oasis" side quest from Fallout 3')
+    print ("I did not come up with the plot, characters, decisions, or anything else displayed in this text adventure")
+    print ("All credit for the plot goes to Bethesda (the original developers of Fallout 3) and the Fallout 3 fandom website which I used as reference material")
+    print ("Reference material here ---> https://fallout.fandom.com/wiki/Oasis_(quest)")
+CreditWhereCreditIsDue()
 def GameStart():
     print('When exploring the map of Fallout 3 you encounter this strange place called "Oasis".')
     print('On aproaching Oasis, a man who goes by the name of "Tree Father Birch" asks you to follow him')
