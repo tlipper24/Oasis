@@ -14,7 +14,7 @@ def GameStart():
     
     
     print('Leading you to their village Birch explains that he is the leader of "The Treeminders"')
-    print('The Treeminders are a group of people who worship trees
+    print('The Treeminders are a group of people who worship trees')
     
     
     print('On arival to their village The Treeminders lead you into the Grove, where they introduce you to a tree named Harold.')
