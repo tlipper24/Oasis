@@ -9,7 +9,7 @@ def CreditWhereCreditIsDue():
 CreditWhereCreditIsDue()
 def DecisionFollow():
     print ('Leading you to their village Birch explains that he is the leader of "The Treeminders"')#
-def Decisionburn():
+def DecisionBurn():
     print ('You burn birch to death and thats the end of the side quest')
 def GameStart():
     print('When exploring the map of Fallout 3 you encounter this strange place called "Oasis".')
@@ -18,12 +18,12 @@ def GameStart():
     #make a choice here
         print
     #Asking for user input
-    answer = input('This is your first choice, Type 1 to go with birch. Type 2 to say "Fuck no, you are crazy" and set him on fire')
+    answer = input('This is your first choice, Type 1 to go with birch. Type 2 to say "no, you are crazy" and set him on fire')
     #If/then/else starement for a different response depending on the answer
     if answer=="1":
-        DecissionFollow()
+        DecisionFollow()
     if answer=="2"
-        print (
+        DecisionBurn
 
     else: print ("2")
     print('')
