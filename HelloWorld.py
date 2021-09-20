@@ -7,13 +7,26 @@ def CreditWhereCreditIsDue():
     print ("All credit for the plot goes to Bethesda (the original developers of Fallout 3), the Fallout 3 fandom website, and the YouTube videos (by Oxhorn) which I used as reference material")
     print ("Reference material here ---> https://fallout.fandom.com/wiki/Oasis_(quest)")
 CreditWhereCreditIsDue()
+def DecisionFollow():
+    print ('Leading you to their village Birch explains that he is the leader of "The Treeminders"')#
+def Decisionburn():
+    print ('You burn birch to death and thats the end of the side quest')
 def GameStart():
     print('When exploring the map of Fallout 3 you encounter this strange place called "Oasis".')
     print('On aproaching Oasis, a strange man who goes by the name of "Tree Father Birch" asks you to follow him')
     print('Birch explains that "He" has summoned you, but doesent say exactly who or what "He" is.')
-    
-    
-    print('Leading you to their village Birch explains that he is the leader of "The Treeminders"')
+    #make a choice here
+        print
+    #Asking for user input
+    answer = input('This is your first choice, Type 1 to go with birch. Type 2 to say "Fuck no, you are crazy" and set him on fire')
+    #If/then/else starement for a different response depending on the answer
+    if answer=="1":
+        DecissionFollow()
+    if answer=="2"
+        print (
+
+    else: print ("2")
+    print('')
     print('The Treeminders are a group of people who worship trees')
     
     
